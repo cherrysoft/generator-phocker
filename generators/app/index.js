@@ -54,6 +54,12 @@ module.exports = class extends Generator {
       this.destinationPath('vhost.conf'),
       {}
     );
+
+    this.fs.copyTpl(
+      this.templatePath('laravel.sh'),
+      this.destinationPath('laravel.sh'),
+      {}
+    );
   }
 
 };
