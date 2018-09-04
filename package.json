@@ -1,0 +1,25 @@
+{
+  "name": "generator-phocker",
+  "version": "0.0.1",
+  "description": "A PHP and Laravel container generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherrysoft/generator-phocker.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.0.0"
+  },
+  "author": "Michael Quinn <michael@cherrysoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cherrysoft/generator-phocker/issues"
+  },
+  "homepage": "https://github.com/cherrysoft/generator-phocker#readme"
+}
