@@ -1,3 +1,3 @@
-FROM nginx:1.10
+FROM nginx:1.17
 
 ADD vhost.conf /etc/nginx/conf.d/default.conf
